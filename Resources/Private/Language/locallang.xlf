@@ -56,6 +56,12 @@
       <trans-unit id="constants.settings.add_stylesheet">
         <source>insert stylesheet automatically</source>
       </trans-unit>
+      <trans-unit id="constants.settings.disable_consent">
+        <source>disable consent</source>
+      </trans-unit>
+      <trans-unit id="constants.settings.add_language_to_cookie">
+        <source>add the current language to consent cookie</source>
+      </trans-unit>
       <trans-unit id="constants.settings.ajax_page_type">
         <source>pagetype for ajax requests</source>
       </trans-unit>
@@ -108,6 +114,9 @@
       <trans-unit id="tca.configuration.save_label">
         <source>Button "Save"</source>
       </trans-unit>
+      <trans-unit id="tca.configuration.deny_label">
+        <source>Button "Deny"</source>
+      </trans-unit>
       <trans-unit id="tca.configuration.show_details_label">
         <source>Link "Show details"</source>
       </trans-unit>
@@ -157,6 +166,9 @@
       </trans-unit>
       <trans-unit id="tca.cookieoption.cookie_duration">
         <source>Cookie duration</source>
+      </trans-unit>
+      <trans-unit id="tca.cookieoption.replacement_label">
+        <source>Label for the consent button</source>
       </trans-unit>
       <trans-unit id="tca.cookieoption.info">
         <source>Information</source>

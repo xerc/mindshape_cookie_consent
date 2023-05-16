@@ -6,6 +6,47 @@
 Changelog
 =========
 
+* 2.2.5
+
+  * Use proper total for deny buttons percentage calculation
+  * Add default value to prevent SQL error with "strict trans tables" activated
+
+* 2.2.4
+
+  * Add template arguments option to consent view helper
+
+* 2.2.3
+
+  * Only replace direct children in consent button replacement
+
+* 2.2.2
+
+  * Optimize consent replacement function to prevent pseudo div wrap
+
+* 2.2.1
+
+  * Add custom replacement button label for cookie option
+
+* 2.2.0
+
+  * Fix install event check query for initial default configuration
+  * Add disable option for the consent
+  * Add option to add the language into the consent cookie
+  * Add missing deny label field for configuration
+
+* 2.1.4
+
+  * Don't open modal on imprint & datapolicy page on active lazyloading
+  * Add custom event for replaced consent buttons
+
+* 2.1.3
+
+  * Solve translation and compatibility issues
+
+* 2.1.2
+
+  * Add redirect url host check to prevent an "open redirect"
+
 * 2.1.1
 
   * Use object manager in TYPO3 v10 to instantiate dataMapper
